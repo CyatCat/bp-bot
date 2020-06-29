@@ -15,7 +15,7 @@ When BPBot auto mode is enabled, the following actions occur:
 * Scans the floor to detect the blocks.
 * When the color is called, it will run the player to the closest block.
 * After stopping on a block, BPBot will perform some intermission moves.
-* Once a new floor is loaded, BPBot will reposition your player at location that has the best probability (location where most colors are).
+* Once a new floor is loaded, BPBot will reposition your player at location that has the best probability (i.e. where the most colors are).
 
 Other features include:
 * Snarky chat messages when people fall.
@@ -30,9 +30,9 @@ Other features include:
 | macOS   |    ~/Library/Application Support/minecraft/versions |
 | Linux   | ~/.minecraft/versions |
 
-More details regarding you .minecraft folder can be found here [https://minecraft.gamepedia.com/.minecraft](https://minecraft.gamepedia.com/.minecraft).
+More details regarding your .minecraft folder can be found here [https://minecraft.gamepedia.com/.minecraft](https://minecraft.gamepedia.com/.minecraft).
 
-* ####  Copy the BPBot folder from this repo into the versions directory:
+* ####  Copy the BPBot folder from this repo into your minecraft versions directory:
 
 For example:
 ```
@@ -56,7 +56,7 @@ For example:
 ### Controls
 * `m` - toggles the main menu
 * `1` - toggles BP Auto mode
-* `s` - toggle speed boost
-* `j` - toggle jump boost
-* `u` - enable high stepping
+* `s` - toggles speed boost
+* `j` - toggles jump boost
+* `u` - toggles high stepping
 * `d` - toggles debug logging messages
