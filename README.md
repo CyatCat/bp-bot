@@ -1,5 +1,4 @@
 # bp-bot
-
 ## Inspiration
 * **Tired of wasting your life away on Block Party, but you still want to earn those points?**
 
@@ -7,46 +6,49 @@
 
 * **Or do you just want to step away from the computer for a moment, and still earn those points?**
 
-This minecraft client helps prevent carpal tunnel syndrome by automating game play for the weary.
+BPBot helps prevent carpal tunnel syndrome by automating game play for the weary.
 
 ## What does it do?
-This is a standard minecraft client (currently v 1.12) which has some additional code to automate your player.
+This is a standard minecraft client (using v 1.12) which has some additional code to automate your Block Party player.
 
-When BPBot is enabled, the following occur:
+When BPBot auto mode is enabled, the following actions occur:
 * Scans the floor to detect the blocks.
 * When the color is called, it will run the player to the closest block.
-* After stopping on a block, the BPBot will perform some intermission moves.
-* Once a new floor is loaded, BPBot will reposition your player at location (where most colors are).
+* After stopping on a block, BPBot will perform some intermission moves.
+* Once a new floor is loaded, BPBot will reposition your player at location that has the best probability (location where most colors are).
+
+Other features include:
+* Snarky chat messages when people fall.
+* Automatic exit to new game.
+* Automatic movement in the lobby.
 
 ## Installation
-
 * #### Locate your minecraft versions folder:
-| OS   |      Location      |
+| OS       | Location     |
 |----------|:-------------|
 | Windows |  %APPDATA%\\.minecraft\versions |
-| macOS |    ~/Library/Application Support/minecraft/versions   |
-| Linux | ~/.minecraft/versions  |
+| macOS   |    ~/Library/Application Support/minecraft/versions |
+| Linux   | ~/.minecraft/versions |
 
-More details can be found here [https://minecraft.gamepedia.com/.minecraft](https://minecraft.gamepedia.com/.minecraft).
+More details regarding you .minecraft folder can be found here [https://minecraft.gamepedia.com/.minecraft](https://minecraft.gamepedia.com/.minecraft).
 
-* ####  Copy the files in this repo into a new folder in the versions directory:
+* ####  Copy the BPBot folder from this repo into the versions directory:
 
+For example:
 ```
 .minecraft\versions\BPAuto'
 ```
 
-* ####  Start the minecraft launcher and create a new profile
+* ####  Start the minecraft launcher and create a new installation
 ![Create New Profile](img_01.png)
 
-* ####  Select the newly added version (release BPBot)
+* ####  Select the newly added version (release BPBot) from the drop down menu
 ![Create New Profile](img_02.png)
 
-* ####  Play the newly create profile
+* ####  Play the newly create installation like normal
 ![Create New Profile](img_03.png)
 
-
 ## Instructions
-
 * Once in game, press the `m` key to open the menu.  
 * With the menu open, press the `1` key to enable BP Auto mode.  
 * Press the `m` key once again to close the menu.
@@ -54,5 +56,7 @@ More details can be found here [https://minecraft.gamepedia.com/.minecraft](http
 ### Controls
 * `m` - toggles the main menu
 * `1` - toggles BP Auto mode
-* `d` - toggles debug logging messages
+* `s` - toggle speed boost
+* `j` - toggle jump boost
 * `u` - enable high stepping
+* `d` - toggles debug logging messages
