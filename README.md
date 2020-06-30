@@ -1,4 +1,4 @@
-# bp-bot
+# BPBot
 ## Inspiration
 * **Tired of wasting your life away on Block Party, but you still want to earn those points?**
 
@@ -48,7 +48,7 @@ For example:
 * ####  Play the newly created installation like normal
 ![Create New Profile](assets/images/img_03.png)
 
-## Instructions
+## How do I use BPBot?
 * Once in game, press the `m` key to open the menu.  
 * With the menu open, press the `1` key to enable BP Auto mode.  
 * Press the `m` key once again to close the menu.
