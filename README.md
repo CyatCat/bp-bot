@@ -40,13 +40,13 @@ For example:
 ```
 
 * ####  Start the minecraft launcher and create a new installation
-![Create New Profile](img_01.png)
+![Create New Profile](assets/images/img_01.png)
 
 * ####  Select the newly added version (release BPBot) from the drop down menu
-![Create New Profile](img_02.png)
+![Create New Profile](assets/images/img_02.png)
 
-* ####  Play the newly create installation like normal
-![Create New Profile](img_03.png)
+* ####  Play the newly created installation like normal
+![Create New Profile](assets/images/img_03.png)
 
 ## Instructions
 * Once in game, press the `m` key to open the menu.  
@@ -60,3 +60,7 @@ For example:
 * `j` - toggles jump boost
 * `u` - toggles high stepping
 * `d` - toggles debug logging messages
+
+## License
+
+BPBot is licensed under the [WTFPL license](license).
