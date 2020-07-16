@@ -1,8 +1,13 @@
 # BPBot
 7/16/2020, Cyat_Cat
 
-### [Installation](#installation)  
-### [Instructions](#instructions)  
+**[Disclaimer](#disclaimer)**<br>
+**[Inspiration](#inspiration)**<br>
+**[Overview](#overview)**<br>
+**[Prerequisites](#prerequisites)**<br>
+**[Installation Instructions](#installation-instructions)**<br>
+**[Usage Instructions](#usage-instructions)**<br>
+**[License](#license)**<br>
 
 ## Disclaimer
 
@@ -17,7 +22,7 @@
 
 BPBot helps prevent carpal tunnel syndrome by automating game play for the weary.
 
-## What does it do?
+## Overview
 BPBot is a player emulator that uses software controlled keyboard presses and mouse clicks to automate your Block Party player.  It does not guarantee a win every time nor is it unbeatable, but it will perform at a high level.
 
 When BPBot is enabled, the following actions occur:
@@ -25,7 +30,7 @@ When BPBot is enabled, the following actions occur:
 * When a color is called, it will run the player to the closest block.
 * Once a new floor is loaded, BPBot will reposition your player at location that has the best probability (i.e. where the most colors are).
 
-Other features include automated chat messages (see the [config files](#config-files)  files for details):
+Other features include automated chat messages (see the [config files](#config-files) for details):
 * Hello messages to friends.
 * RIP messages when people are eliminated.
 * Fail messages when you are eliminated.
@@ -46,7 +51,7 @@ BPBot uses automated key presses and mouse clicks to control the player.  It req
 | Walk Forwards   | W           |
 | Use Item        | Right Click |
 
-## Installation
+## Installation Instructions
 ### Locate your minecraft versions folder:
 
 | OS        | Location                        |
@@ -79,7 +84,7 @@ You should end up with a BPBot folder in your versions directory:
 ###  Play the newly created installation like normal:
 ![Create New Profile](assets/images/img_03.png)
 
-## Instructions
+## Usage Instructions
 * Once in game, press the `m` key to open the menu.  
 * With the menu open, press the `1` key to enable BP Auto mode.  
 * Press the `m` key once again to close the menu.
@@ -97,7 +102,7 @@ You should end up with a BPBot folder in your versions directory:
 #### friends.txt
 Contains a list of player UUID's that you would like to automatically say hello to.
 
-Place one UUID per line in the 8-4-4-4-12 format.  These UUID's can be conveiniently copied using the [NameMC](https://namemc.com/profile/Cyat_Cat.2) website.
+Place one UUID per line in the 8-4-4-4-12 format.  These UUID's can be conveniently copied using the [NameMC](https://namemc.com/profile/Cyat_Cat.2) website.
 
 ```
 07dc1039-2131-419b-9ea3-8390f9eea873
