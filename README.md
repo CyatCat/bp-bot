@@ -1,6 +1,10 @@
 # BPBot
 7/16/2020, Cyat_Cat
-## Discalimer
+
+### [Installation](#installation)  
+### [Instructions](#instructions)  
+
+## Disclaimer
 
 **WARNING**: *Usage of this bot will violate the server rules and is punishable by a permanent ban.*  **USE AT YOUR OWN RISK; you have been warned.**
 
@@ -14,14 +18,14 @@
 BPBot helps prevent carpal tunnel syndrome by automating game play for the weary.
 
 ## What does it do?
-BPBot is a player emulator that uses software controlled keyboard presses and mouse clicks to automate your Block Party player.  It does not guarantee a win every time nor is unbeatable, but it will perform at a high level.
+BPBot is a player emulator that uses software controlled keyboard presses and mouse clicks to automate your Block Party player.  It does not guarantee a win every time nor is it unbeatable, but it will perform at a high level.
 
 When BPBot is enabled, the following actions occur:
 * Scans the floor to detect the blocks.
 * When a color is called, it will run the player to the closest block.
 * Once a new floor is loaded, BPBot will reposition your player at location that has the best probability (i.e. where the most colors are).
 
-Other features include automatic chat messages (see the [config files](#config-files)  files for details):
+Other features include automated chat messages (see the [config files](#config-files)  files for details):
 * Hello messages to friends.
 * RIP messages when people are eliminated.
 * Fail messages when you are eliminated.
@@ -44,17 +48,22 @@ BPBot uses automated key presses and mouse clicks to control the player.  It req
 
 ## Installation
 ### Locate your minecraft versions folder:
-| OS      | Location                        |
-|---------|:--------------------------------|
-| Windows | %APPDATA%\\.minecraft\versions  |
-| Linux   | ~/.minecraft/versions           |
+
+| OS        | Location                        |
+|-----------|:--------------------------------|
+| Windows   | %APPDATA%\\.minecraft\versions  |
+| GNU/Linux | ~/.minecraft/versions           |
 
 More details regarding your .minecraft folder can be found here [https://minecraft.gamepedia.com/.minecraft](https://minecraft.gamepedia.com/.minecraft).
 
 ### Download the BPBot zip file for your OS and extract it into your minecraft versions directory:
-[Windows Download](BPBot_windows_v1_0.zip)
 
-Linux Download (coming soon)
+| OS          | Link                                  |
+|-------------|:--------------------------------------|
+| Windows     | [Download](BPBot_windows_v1_0.zip)    |
+| GNU/Linux*  | [Download](BPBot_gnu_linux_v1_0.zip)  |
+
+*[Debian](https://www.debian.org/) based.
 
 You should end up with a BPBot folder in your versions directory:
 ```
@@ -70,12 +79,12 @@ You should end up with a BPBot folder in your versions directory:
 ###  Play the newly created installation like normal:
 ![Create New Profile](assets/images/img_03.png)
 
-## How do I use BPBot?
+## Instructions
 * Once in game, press the `m` key to open the menu.  
 * With the menu open, press the `1` key to enable BP Auto mode.  
 * Press the `m` key once again to close the menu.
 
-**NOTE:** *Please be aware that that once BPBot is running, it will be automatically pressing the keys to move the player around.  Should you interrupt it during operation and find a key is stuck, just physically press it to release it (typically the W key, LSHIFT key, or LCONTROL key).*
+**NOTE:** *Please be aware that that once BPBot is running, it will be automatically pressing the keys to move the player around.  Should you interrupt it during operation and find a key is stuck, just physically press the key(s) to release it (typically the W key, the LSHIFT key, or the LCONTROL key).*
 
 ### Controls
 * `m` - toggles the main menu
