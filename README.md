@@ -1,5 +1,7 @@
 # BPBot
-7/16/2020, Cyat_Cat
+![banner](resources/images/banner.png)
+
+BPBot helps prevent carpal tunnel syndrome by automating your Block Party game play.
 
 **[Disclaimer](#disclaimer)**<br>
 **[Inspiration](#inspiration)**<br>
@@ -8,6 +10,7 @@
 **[Installation Instructions](#installation-instructions)**<br>
 **[Usage Instructions](#usage-instructions)**<br>
 **[License](#license)**<br>
+**[Revision History](#revision-history)**<br>
 
 ## Disclaimer
 
@@ -19,8 +22,6 @@
 * **Are your fingers sore from playing too much, but you still want to earn those points?**
 
 * **Or do you just want to step away from the computer for a moment, and still earn those points?**
-
-BPBot helps prevent carpal tunnel syndrome by automating game play for the weary.
 
 ## Overview
 BPBot is a player emulator that uses software controlled keyboard presses and mouse clicks to automate your Block Party player.  It does not guarantee a win every time nor is it unbeatable, but it will perform at a high level.
@@ -68,7 +69,7 @@ More details regarding your .minecraft folder can be found here [https://minecra
 | Windows     | [Download](BPBot_windows_v1_0.zip)    |
 | GNU/Linux*  | [Download](BPBot_gnu_linux_v1_0.zip)  |
 
-*[Debian](https://www.debian.org/) based.
+\*[Debian](https://www.debian.org/) based.
 
 You should end up with a BPBot folder in your versions directory:
 ```
@@ -76,13 +77,13 @@ You should end up with a BPBot folder in your versions directory:
 ```
 
 ###  Start the minecraft launcher and create a new installation:
-![Create New Profile](assets/images/img_01.png)
+![Create New Install Profile](resources/images/img_01.png)
 
 ###  Select the newly added version (release BPBot) from the drop down menu:
-![Create New Profile](assets/images/img_02.png)
+![Edit New Install Profile](resources/images/img_02.png)
 
 ###  Play the newly created installation like normal:
-![Create New Profile](assets/images/img_03.png)
+![Play New Install Profile](resources/images/img_03.png)
 
 ## Usage Instructions
 * Once in game, press the `m` key to open the menu.  
@@ -175,3 +176,7 @@ The files to be edited are located here:
 
 ## License
 BPBot is licensed under the [WTFPL license](license).
+
+## Revision History
+* 2020-07-16 Upated to add Windows & GNU/Linux versions for BP Java 2 rewrite
+* 2020-06-28 Initial repository
