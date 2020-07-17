@@ -41,16 +41,16 @@ Other features include automated chat messages (see the [config files](#config-f
 ## Prerequisites
 BPBot uses automated key presses and mouse clicks to control the player.  It requires the following standard control mappings:
 
-| Action          | Control     |
-|:----------------|:-----------:|
-| Jump            | SPACE       |
-| Sneak           | LSHIFT      |
-| Sprint          | LCONTROL    |
-| Strafe Left     | A           |
-| Strafe Right    | D           |
-| Walk Backwards  | S           |
-| Walk Forwards   | W           |
-| Use Item        | Right Click |
+| Action          | Control       |
+|:----------------|:-------------:|
+| Jump            | `SPACE`       |
+| Sneak           | `LSHIFT`      |
+| Sprint          | `LCTRL`       |
+| Strafe Left     | `A`           |
+| Strafe Right    | `D`           |
+| Walk Backwards  | `S`           |
+| Walk Forwards   | `W`           |
+| Use Item        | `Right Click` |
 
 ## Installation Instructions
 ### Locate your minecraft versions folder:
@@ -90,7 +90,7 @@ You should end up with a BPBot folder in your versions directory:
 * With the menu open, press the `1` key to enable BP Auto mode.  
 * Press the `m` key once again to close the menu.
 
-**NOTE:** *Please be aware that that once BPBot is running, it will be automatically pressing the keys to move the player around.  Should you interrupt it during operation and find a key is stuck, just physically press the key(s) to release it (typically the W key, the LSHIFT key, or the LCONTROL key).*
+**NOTE:** *Please be aware that that once BPBot is running, it will be automatically pressing the keys to move the player around.  Should you interrupt it during operation and find a key is stuck, just physically press the key(s) to release it (typically the `W` key, the `LSHIFT` key, or the `LCTRL` key).*
 
 ### Controls
 * `m` - toggles the main menu
