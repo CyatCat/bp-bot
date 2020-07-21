@@ -1,7 +1,7 @@
 # BPBot
 ![banner](resources/images/banner.png)
 
-BPBot helps prevent carpal tunnel syndrome by automating your Block Party game play.
+**BPBot helps prevent carpal tunnel syndrome by automating your Block Party game play.**
 
 **[Disclaimer](#disclaimer)**<br>
 **[Inspiration](#inspiration)**<br>
@@ -94,9 +94,10 @@ You should end up with a BPBot folder in your versions directory:
 
 ### Controls
 * `m` - toggles the main menu
-* `1` - toggles BP Auto mode
-* `s` - toggles speed boost
-* `j` - toggles jump boost
+* `1` - preset 1, toggles BP full auto mode
+* `2` - preset 2, toggles BP auto chat mode
+* `3` - preset 3, toggles BP auto run mode
+* `p` - toggles player ID display (shows friends)
 * `d` - toggles debug logging messages
 
 ### Config Files
@@ -178,5 +179,6 @@ The files to be edited are located here:
 BPBot is licensed under the [WTFPL license](license).
 
 ## Revision History
-* 2020-07-16 Upated to add Windows & GNU/Linux versions for BP Java 2 rewrite
-* 2020-06-28 Initial repository
+* 2020-07-21 Version 1.1 release, fixed auto chat bugs.
+* 2020-07-16 Version 1.0 release, created Windows & GNU/Linux versions for BP's Java 2 rewrite.
+* 2020-06-28 Initial repository.
